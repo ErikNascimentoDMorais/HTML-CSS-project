@@ -1,0 +1,103 @@
+.img2{
+    height:488px; 
+}
+
+
+.img-description{
+background-color: rgb(224, 87, 87);
+}
+
+#Pierre-img{
+   height:288px; 
+}
+body {
+background: url("https://imgs.search.brave.com/gCCHRYW0DP8y9Szb2CV_nw1q0vjQBXTZUJsTQdV9IcY/rs:fit:1200:635:1/g:ce/aHR0cHM6Ly9pMS53/cC5jb20vZGlhbmF2/aWFqYS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTgvMDkv/am9nby1QU0ctUGFy/aXMtZGljYXMuanBn/P3Jlc2l6ZT0xMjAw/JTJDNjM1JnNzbD0x");
+background-size: 100%;
+background-attachment :fixed;
+margin: 0;
+padding: 0;
+font-family: QuickSand;
+}
+nav {
+
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100px;
+padding: 10px 100px;
+box-sizing: border-box;
+transition: .3s;
+}
+#content{
+    border-radius: 15px;
+    padding: 25px;
+    color:white;
+    background-color: rgba(9, 8, 107, 0.877);
+margin-top:80px;
+width: 900px;
+margin: 30px auto;
+text-align: justify;
+font-size: 20px;
+line-height: 30px;
+
+}
+
+
+nav ul{
+
+list-style: none;
+float: right;
+margin: 0;
+padding: 0;
+display: flex;
+}
+nav ul li {
+list-style: none;
+}
+nav ul li a {
+line-height: 80px;
+color: #151515;
+padding: 12px 30px;
+text-decoration: none;
+text-transform: uppercase;
+transition: .3s;
+}
+nav ul li a:focus{
+outline: none;
+}
+nav.black {
+background: rgba(0,0,0,0.8);
+height: 100px;
+padding: 10px 100px;
+}
+nav.black .logo {
+color: #fff;
+}
+nav.black ul li a{
+color: #fff;
+}
+nav ul li a.active{
+background: #E247;
+color: #fff;
+border-radius: 6px;
+}
+ul{
+background-color: white;
+}
+.logo{
+color:white;
+}
+#img2{
+    width:25px;
+    height:25px;
+}
+nav .logo {
+    border-radius: 12px;
+    background-color: rgba(9, 8, 107, 0.877);
+padding: 22px 20px;
+height: 80px;
+float: left;
+font-size: 24px;
+transition: .3s;
+}
