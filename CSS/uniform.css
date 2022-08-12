@@ -101,5 +101,14 @@
                 padding:25px;
             }
             h2{
+              font-size: 20px;
                 padding: 15px;
+            }
+            #about{
+              font-size: 35px;
+              box-shadow: 10px;
+            }
+            .img{
+              height: 400px;
+              width:400px;
             }
